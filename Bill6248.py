@@ -11,7 +11,7 @@ from threading import Thread
 from gtts import gTTS
 from googletrans import Translator
 cl = LINETCR.LINE()
-cl.login(token="ErxYnpCcgrGgaa5q8Zcf.7XcR1Iuq/y0vAWsI7DNQpW.gqJUWak9yNqN/opzVVS8TDjLeHp2KN3U6OhIsWHV5x0=")
+cl.login(token="EsX0mdTMmq0jjIeoHnyb.RY8JBkWXoK+666zrLrvk6W.WrRNpNLR9VF05VbQPMUJ0rvYXmFGb/Jx/oJcLyRTvR4=")
 cl.loginResult()
 
 #ki1 = LINETCR.LINE()
@@ -312,13 +312,13 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 mid = cl.getProfile().mid
-Bots = "uef10abd62510f98d156b04a2edd9ea3f"
-self = "uef10abd62510f98d156b04a2edd9ea3f"
-admin ="uef10abd62510f98d156b04a2edd9ea3f"
-admsa = "uef10abd62510f98d156b04a2edd9ea3f"
-owner = "uef10abd62510f98d156b04a2edd9ea3f"
-adminMID = "uef10abd62510f98d156b04a2edd9ea3f"
-Creator="uef10abd62510f98d156b04a2edd9ea3f"
+Bots = "uaf2f236cac313a4ffaeba65195154aeb"
+self = "uaf2f236cac313a4ffaeba65195154aeb"
+admin ="uaf2f236cac313a4ffaeba65195154aeb"
+admsa = "uaf2f236cac313a4ffaeba65195154aeb"
+owner = "uaf2f236cac313a4ffaeba65195154aeb"
+adminMID = "uaf2f236cac313a4ffaeba65195154aeb"
+Creator="uaf2f236cac313a4ffaeba65195154aeb"
 wait = {
     "alwayRead":False,
     "detectMention":True,
