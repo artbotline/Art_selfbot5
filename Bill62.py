@@ -12,14 +12,14 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 cl = LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token='EsWeg6GxBUCiTaVcXqY8.Az+e9zx1aKnHFkBmtSDZYa.TQ4kcWGAemSA6L2ONvfJjT9Pq9kwv5cRVKgPuxz8fNU=')
+cl.login(token='EsFKwK7vnGVY58g9ocJb.RY8JBkWXoK+666zrLrvk6W.GYROSY+E0Q9lowz/mzRjDLKuEWHAW6a9Dy8iCyJ7HBE=')
 cl.loginResult()
 print "Cl-Login Success\n"
 
-ki = LINETCR.LINE()
+#ki = LINETCR.LINE()
 #ki.login(qr=True)
-ki.login(token='EszIPH9pC5YxoX0hLrob.RY8JBkWXoK+666zrLrvk6W.Fa27qpo4g0CRHTMbk0qgEAhbwkEytKrwnS71QxT7mn8=')
-ki.loginResult()
+#ki.login(token='EszIPH9pC5YxoX0hLrob.RY8JBkWXoK+666zrLrvk6W.Fa27qpo4g0CRHTMbk0qgEAhbwkEytKrwnS71QxT7mn8=')
+#ki.loginResult()
 print "Ki-Login Success\n"
 
 #kk = LINETCR.LINE()
@@ -40,10 +40,10 @@ print "Ki-Login Success\n"
 #kr.loginResult()
 #print "Kr-Login Success\n"
 
-km = LINETCR.LINE()
+#km = LINETCR.LINE()
 #km.login(qr=True)
-km.login(token='ErV1pugVOBTbfjR5kuXb.thEbgORJZ5EqXYnQKch5kW.YCUszeW1qVKJuQ2hqq941buKt971ImihTYsN8Wu4cJ4=')
-km.loginResult()
+#km.login(token='ErV1pugVOBTbfjR5kuXb.thEbgORJZ5EqXYnQKch5kW.YCUszeW1qVKJuQ2hqq941buKt971ImihTYsN8Wu4cJ4=')
+#km.loginResult()
 print "Km-Login Success\n\n=====[Sukses All Login]====="
 
 reload(sys)
@@ -177,7 +177,7 @@ groupMessage ="""
 ║💠 By : ☆-❍ণហ ざণاعနัю❍ีざန- 💠
 ╚════════════════════
 """
-tjia="u699fc4f595f50243617ca6cc4ec773c8"
+tjia="uaf2f236cac313a4ffaeba65195154aeb"
 
 setMessage ="""
 ╔════════════════════
@@ -349,20 +349,20 @@ protectMessage ="""
 """
 
 
-KAC=[cl,ki,km]
+KAC=[cl]
 mid = cl.getProfile().mid
-Amid = ki.getProfile().mid
+#Amid = ki.getProfile().mid
 #Bmid = kk.getProfile().mid
 #Cmid = kc.getProfile().mid
 #Dmid = kr.getProfile().mid
-Emid = km.getProfile().mid
-Bots=[mid,Amid,Emid]
-Creator=["u699fc4f595f50243617ca6cc4ec773c8"]
-admin=["u699fc4f595f50243617ca6cc4ec773c8"]
-admsa = ["u699fc4f595f50243617ca6cc4ec773c8"]
-self = ["u699fc4f595f50243617ca6cc4ec773c8"]
-owner = ["u699fc4f595f50243617ca6cc4ec773c8"]
-Creator = ["u699fc4f595f50243617ca6cc4ec773c8"]
+#Emid = km.getProfile().mid
+Bots=["uaf2f236cac313a4ffaeba65195154aeb"]
+Creator=["uaf2f236cac313a4ffaeba65195154aeb"]
+admin=["uaf2f236cac313a4ffaeba65195154aeb"]
+admsa = ["uaf2f236cac313a4ffaeba65195154aeb"]
+self = ["uaf2f236cac313a4ffaeba65195154aeb"]
+owner = ["uaf2f236cac313a4ffaeba65195154aeb"]
+Creator = ["uaf2f236cac313a4ffaeba65195154aeb"]
 
 contact = cl.getProfile()
 backup1 = cl.getProfile()
@@ -370,11 +370,11 @@ backup1.displayName = contact.displayName
 backup1.statusMessage = contact.statusMessage
 backup1.pictureStatus = contact.pictureStatus
 
-contact = ki.getProfile()
-backup2 = ki.getProfile()
-backup2.displayName = contact.displayName
-backup2.statusMessage = contact.statusMessage
-backup2.pictureStatus = contact.pictureStatus
+#contact = ki.getProfile()
+#backup2 = ki.getProfile()
+#backup2.displayName = contact.displayName
+#backup2.statusMessage = contact.statusMessage
+#backup2.pictureStatus = contact.pictureStatus
 
 #contact = kk.getProfile()
 #backup3 = kk.getProfile()
@@ -395,7 +395,7 @@ backup2.pictureStatus = contact.pictureStatus
 #backup5.pictureStatus = contact.pictureStatus
 
 responsename = cl.getProfile().displayName
-responsename2 = ki.getProfile().displayName
+#responsename2 = ki.getProfile().displayName
 #responsename3 = kk.getProfile().displayName
 #responsename4 = kc.getProfile().displayName
 #responsename5 = kr.getProfile().displayName
